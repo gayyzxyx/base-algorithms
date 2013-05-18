@@ -1,4 +1,4 @@
-package main.java.base.algorithms.transform;
+package base.algorithms.transform;
 
 /**
  * Created with IntelliJ IDEA.
@@ -14,7 +14,7 @@ public final class DataTransform {
      * @param input 输入参数
      * @return
      */
-    public static String decimalToBinary(Integer input){
+    public static String decimalToBinary(int input){
         return toString(input,1);
     }
 
@@ -23,7 +23,7 @@ public final class DataTransform {
      * @param input 输入参数
      * @return
      */
-    public static String decimalToOctal(Integer input){
+    public static String decimalToOctal(int input){
         return toString(input,3);
     }
     /**
@@ -31,7 +31,7 @@ public final class DataTransform {
      * @param input 输入参数
      * @return
      */
-    public static String decimalToHex(Integer input){
+    public static String decimalToHex(int input){
         return toString(input,4);
     }
 
