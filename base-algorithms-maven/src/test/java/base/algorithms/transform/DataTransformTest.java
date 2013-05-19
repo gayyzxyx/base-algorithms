@@ -10,6 +10,10 @@ import base.algorithms.transform.DataTransform;
 public class DataTransformTest {
     public static void main(String []args){
         int test=123;
+        char a = 9;
+        char  b = 8;
+        System.out.println(a+b);
         System.out.print(DataTransform.decimalToBinary(test));
+
     }
 }
